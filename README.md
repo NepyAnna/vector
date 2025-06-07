@@ -8,10 +8,10 @@ It provides basic vector operations such as addition, subtraction, comparison, l
 ## 📂 Project Structure
 
 vector-project/
-├── vectors.c
-├── vectors.h
+├── vector.c
+├── vector.h
 ├── main.c 
-├── Makefile
+├── makefile
 └── README.md 
 
 ## 🔧 Features
@@ -25,8 +25,8 @@ vector-project/
 ### 🔽 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/vector-project.git
-cd vector-project
+git clone https://github.com/NepyAnna/vector.git
+cd vector
 
 ## 🚀 How to Run
 Compile using Makefile:
@@ -35,11 +35,11 @@ make
 
 Alternatively, compile manually:
 
-clang -o vector_test main.c vectors.c -lm
+clang -o vector main.c vector.c -lm
 
 Run the program
 
-./vector_test
+./vector
 
 Sample Output:
 
